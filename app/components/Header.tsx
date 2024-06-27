@@ -24,6 +24,7 @@ export function Header({
     <header className="header">
       <NavLink prefetch="intent" to="/" style={activeLinkStyle} end>
         <strong>{shop.name}</strong>
+        <div>test</div>
       </NavLink>
       <HeaderMenu
         menu={menu}
